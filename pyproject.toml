@@ -1,0 +1,22 @@
+[project]
+name = "mrz-check"
+version = "0.1.0"
+description = "Offline ICAO 9303 MRZ parser and check-digit validator for passports and ID cards (TD1, TD2, TD3)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Levent Çeliksan"}]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest", "mrz"]
+
+[project.scripts]
+mrz-check = "mrz_check.cli:main"
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mrz_check"]
