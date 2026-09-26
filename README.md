@@ -8,7 +8,7 @@ Offline parser and check-digit validator for the **machine-readable zone (MRZ)**
 | TD2 | Older ID cards, visas | 2 × 36 |
 | TD1 | ID cards | 3 × 30 |
 
-It is a small, dependency-free version of the MRZ validation step in the self-hosted KYC pipeline I built at [Sealify](https://sealify.io), where ID/passport data is checked before face matching instead of sending it to a paid KYC provider. Everything runs locally — no network, nothing stored.
+It is a small, dependency-free version of the MRZ validation step in the self-hosted KYC pipeline I built at [Sealify](https://sealify.io), where ID/passport data is checked before face matching instead of sending it to a paid KYC provider. It is written from scratch as an independent tool and does not contain Sealify code. Everything runs locally — no network, nothing stored.
 
 ## What it checks
 - Every check digit: document number, birth date, expiry date, personal number (TD3) and the **composite** check digit
