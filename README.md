@@ -1,5 +1,7 @@
 # mrz-check
 
+[![tests](https://github.com/LeventCeliksan/mrz-check/actions/workflows/tests.yml/badge.svg)](https://github.com/LeventCeliksan/mrz-check/actions/workflows/tests.yml)
+
 Offline parser and check-digit validator for the **machine-readable zone (MRZ)** of passports and ID cards, following **ICAO Doc 9303**:
 
 | Format | Documents | Layout |
